@@ -1,0 +1,59 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url(../Novo/img/cute-minions-.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15%;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 20px;
+    background-color: #f0e65f;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #dce77a;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+   
+  }
+  
+  .deleteButton {
+    background-color: #1449ac;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    float: right;
+    margin-left: 5px;
+   
+    
+  }
+  
+  li {
+    margin-top: 10px;
+  }
+  
